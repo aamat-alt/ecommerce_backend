@@ -9,7 +9,7 @@ const productRoutes = require('./routes/products');
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://ecommerce-frontend-design.vercel.app'],
+  origin: ['http://localhost:5173', 'https://ecommerce-frontend-design-rose-two.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
